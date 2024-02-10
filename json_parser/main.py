@@ -10,6 +10,3 @@ def json_parser(f):
                 return True
         return False
 
-
-print(json_parser('tests/step1/valid.json'))
-print(json_parser('tests/step1/invalid.json'))
